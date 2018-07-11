@@ -1,0 +1,1 @@
+﻿Set 'MEMELib.a' in this directory

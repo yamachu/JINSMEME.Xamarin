@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<enum-field-mappings>
+    <!--
+  This example converts the constants Fragment_id, Fragment_name,
+  and Fragment_tag from android.support.v4.app.FragmentActivity.FragmentTag
+  to an enum called Android.Support.V4.App.FragmentTagType with values
+  Id, Name, and Tag.
+  
+  <mapping clr-enum-type="Android.Support.V4.App.FragmentTagType" jni-class="android/support/v4/app/FragmentActivity$FragmentTag">
+    <field clr-name="Id" jni-name="Fragment_id" value="1" />
+    <field clr-name="Name" jni-name="Fragment_name" value="0" />
+    <field clr-name="Tag" jni-name="Fragment_tag" value="2" />
+  </type>
+
+  Notes:
+  - An optional "bitfield" attribute marks the enum type with [Flags].
+  - For Java interfaces, use "jni-interface" attribute instead of "jni-class" attribute.
+  -->
+    <mapping jni-class="com/jins_jp/meme/MemeStatus" clr-enum-type="JINS.MEME.Android.MemeStatus">
+        <field clr-name="MEME_OK" jni-name="MEME_OK" value="0" />
+        <field clr-name="MEME_ERROR" jni-name="MEME_ERROR" value="1" />
+        <field clr-name="MEME_ERROR_SDK_AUTH" jni-name="MEME_ERROR_SDK_AUTH" value="2" />
+        <field clr-name="MEME_ERROR_APP_AUTH" jni-name="MEME_ERROR_APP_AUTH" value="3" />
+        <field clr-name="MEME_ERROR_CONNECTION" jni-name="MEME_ERROR_CONNECTION" value="4" />
+        <field clr-name="MEME_DEVICE_INVALID" jni-name="MEME_DEVICE_INVALID" value="5" />
+        <field clr-name="MEME_CMD_INVALID" jni-name="MEME_CMD_INVALID" value="6" />
+        <field clr-name="MEME_ERROR_FW_CHECK" jni-name="MEME_ERROR_FW_CHECK" value="7" />
+        <field clr-name="MEME_ERROR_BL_OFF" jni-name="MEME_ERROR_BL_OFF" value="8" />
+    </mapping>
+    <mapping jni-class="com/jins_jp/meme/MemeFitStatus" clr-enum-type="JINS.MEME.Android.MemeFitStatus">
+        <field clr-name="MEME_FIT_OK" jni-name="MEME_FIT_OK" value="0" />
+        <field clr-name="MEME_FIT_ERROR_R" jni-name="MEME_FIT_ERROR_R" value="1" />
+        <field clr-name="MEME_FIT_ERROR_L" jni-name="MEME_FIT_ERROR_L" value="2" />
+        <field clr-name="MEME_FIT_ERROR_BRIDGE" jni-name="MEME_FIT_ERROR_BRIDGE" value="3" />
+    </mapping>
+    <mapping jni-class="com/jins_jp/meme/MemeCalibStatus" clr-enum-type="JINS.MEME.Android.MemeCalibStatus">
+        <field clr-name="CALIB_NOT_FINISHED" jni-name="CALIB_NOT_FINISHED" value="0" />
+        <field clr-name="CALIB_BODY_FINISHED" jni-name="CALIB_BODY_FINISHED" value="1" />
+        <field clr-name="CALIB_EYE_FINISHED" jni-name="CALIB_EYE_FINISHED" value="2" />
+        <field clr-name="CALIB_BOTH_FINISHED" jni-name="CALIB_BOTH_FINISHED" value="3" />
+    </mapping>
+</enum-field-mappings>

@@ -1,0 +1,1 @@
+﻿Set 'MemeLib.jar' in this directory
