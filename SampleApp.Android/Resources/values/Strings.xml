@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SampleApp.Android</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="fit_status">Fit Status</string>
+    <string name="walking">Walking</string>
+    <string name="noise_status">Noise Status</string>
+    <string name="power_left">Power Left</string>
+    <string name="eye_move_up">Eye Move Up</string>
+    <string name="eye_move_down">Eye Move Down</string>
+    <string name="eye_move_left">Eye Move Left</string>
+    <string name="eye_move_right">Eye Move Right</string>
+    <string name="blink_streangth">Blink Streangth</string>
+    <string name="blink_speed">Blink Speed</string>
+    <string name="roll">Roll</string>
+    <string name="pitch">Pitch</string>
+    <string name="yaw">Yaw</string>
+    <string name="acc_x">Acc X</string>
+    <string name="acc_y">Acc Y</string>
+    <string name="acc_z">Acc Z</string>
+</resources>
