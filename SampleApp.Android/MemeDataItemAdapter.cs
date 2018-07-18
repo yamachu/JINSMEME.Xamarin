@@ -2,9 +2,9 @@
 using Android.Content;
 using Android.Views;
 using Android.Widget;
-using JINS.MEME.Android;
+using JINSMEME.Native.Android;
 
-namespace SampleApp.Android
+namespace SampleApp.Native.Android
 {
     public class MemeDataItemAdapter : BaseAdapter
     {

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <attr path="/api/package[@name='com.jins_jp.meme']" name="managedName">JINS.MEME.Android</attr>
+    <attr path="/api/package[@name='com.jins_jp.meme']" name="managedName">JINSMEME.Native.Android</attr>
     <!--  MemeLibのベースクラス  -->
     <attr path="/api/package[@name='com.jins_jp.meme']/class[@name='u']" name="obfuscated">false</attr>
     <!--  不要な定義  -->

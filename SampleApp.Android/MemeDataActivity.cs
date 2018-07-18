@@ -7,9 +7,9 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 
-using JINS.MEME.Android;
+using JINSMEME.Native.Android;
 
-namespace SampleApp.Android
+namespace SampleApp.Native.Android
 {
     [Activity(Label = "MemeDataActivity")]
     public class MemeDataActivity : ActionBarActivity, IMemeRealtimeListener, IMemeResponseListener

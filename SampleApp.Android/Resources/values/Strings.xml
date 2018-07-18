@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SampleApp.Android</string>
+    <string name="app_name">SampleApp.Native.Android</string>
     <string name="action_scan">Scan</string>
     <string name="action_stop">Stop</string>
     <string name="action_disconnect">Disconnect</string>

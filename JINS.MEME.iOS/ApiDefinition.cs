@@ -3,7 +3,7 @@ using CoreBluetooth;
 using Foundation;
 using ObjCRuntime;
 
-namespace JINS.MEME.iOS
+namespace JINSMEME.Native.iOS
 {
     // @interface MEMEData : NSObject
     [BaseType(typeof(NSObject))]

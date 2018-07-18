@@ -7,15 +7,15 @@
     <ProjectGuid>{743E1407-6B0A-44B6-BFCC-3CE55036902C}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>JINS.MEME.Android</RootNamespace>
-    <AssemblyName>JINS.MEME.Android</AssemblyName>
+    <RootNamespace>JINSMEME.Native.Android</RootNamespace>
+    <AssemblyName>JINSMEME.Native.Android</AssemblyName>
     <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>JINS.MEME.Android</PackageId>
+    <PackageId>JINSMEME.Native.Android</PackageId>
     <PackageVersion>1.1.5.0</PackageVersion>
     <Authors>yamachu</Authors>
     <Description>Unofficial JINS MEME SDK for Android</Description>

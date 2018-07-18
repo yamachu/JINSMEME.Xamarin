@@ -7,8 +7,8 @@
     <ProjectGuid>{E93BB9E8-B9F7-4FD7-BF6A-DE5CA38D9D4A}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>SampleApp.Android</RootNamespace>
-    <AssemblyName>SampleApp.Android</AssemblyName>
+    <RootNamespace>SampleApp.Native.Android</RootNamespace>
+    <AssemblyName>SampleApp.Native.Android</AssemblyName>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -107,9 +107,9 @@
     <Folder Include="Resources\menu\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JINS.MEME.Android\JINS.MEME.Android.csproj">
+    <ProjectReference Include="..\JINS.MEME.Android\JINSMEME.Native.Android.csproj">
       <Project>{743E1407-6B0A-44B6-BFCC-3CE55036902C}</Project>
-      <Name>JINS.MEME.Android</Name>
+      <Name>JINSMEME.Native.Android</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

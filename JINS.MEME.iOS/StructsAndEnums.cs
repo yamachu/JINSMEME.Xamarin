@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace JINS.MEME.iOS
+namespace JINSMEME.Native.iOS
 {
     public enum MEMEType : uint
     {
