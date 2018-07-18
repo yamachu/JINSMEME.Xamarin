@@ -107,7 +107,7 @@
     <Folder Include="Resources\menu\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JINS.MEME.Android\JINSMEME.Native.Android.csproj">
+    <ProjectReference Include="..\JINSMEME.Native.Android\JINSMEME.Native.Android.csproj">
       <Project>{743E1407-6B0A-44B6-BFCC-3CE55036902C}</Project>
       <Name>JINSMEME.Native.Android</Name>
     </ProjectReference>

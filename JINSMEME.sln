@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JINSMEME.Native.Android", "JINS.MEME.Android\JINSMEME.Native.Android.csproj", "{743E1407-6B0A-44B6-BFCC-3CE55036902C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JINSMEME.Native.Android", "JINSMEME.Native.Android\JINSMEME.Native.Android.csproj", "{743E1407-6B0A-44B6-BFCC-3CE55036902C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JINSMEME.Native.iOS", "JINS.MEME.iOS\JINSMEME.Native.iOS.csproj", "{81EA74B1-1097-4983-B72C-08B7A72D472D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JINSMEME.Native.iOS", "JINSMEME.Native.iOS\JINSMEME.Native.iOS.csproj", "{81EA74B1-1097-4983-B72C-08B7A72D472D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Native.Android", "SampleApp.Android\SampleApp.Native.Android.csproj", "{E93BB9E8-B9F7-4FD7-BF6A-DE5CA38D9D4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Native.Android", "SampleApp.Native.Android\SampleApp.Native.Android.csproj", "{E93BB9E8-B9F7-4FD7-BF6A-DE5CA38D9D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
