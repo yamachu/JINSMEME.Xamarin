@@ -16,7 +16,7 @@
   - To change the type of the return value, use "return" as the parameter name.
   - The parameter names will be p0, p1, ... unless you provide JavaDoc file in the project.
   -->
-    <mapping jni-class="com/jins_jp/meme/MemeLib">
+    <mapping jni-class="com/jins_jp/meme/MemeLibWrapper">
         <method jni-name="startScan" parameter="return" clr-enum-type="JINS.MEME.Android.MemeStatus" />
         <method jni-name="stopScan" parameter="return" clr-enum-type="JINS.MEME.Android.MemeStatus" />
         <method jni-name="connect" parameter="return" clr-enum-type="JINS.MEME.Android.MemeStatus" />

@@ -8,16 +8,18 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
     <attr path="/api/package[@name='com.jins_jp.meme']" name="managedName">JINS.MEME.Android</attr>
+    <attr path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeLibWrapper']" name="managedName">MemeLib</attr>
     <!--  自分で定義したenumと被るため削除  -->
     <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeStatus']" />
     <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeFitStatus']" />
     <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeCalibStatus']" />
     <!--  MemeLibのベースクラス  -->
-    <attr path="/api/package[@name='com.jins_jp.meme']/class[@name='u']" name="obfuscated">false</attr>
+<!--    <attr path="/api/package[@name='com.jins_jp.meme']/class[@name='u']" name="obfuscated">false</attr>-->
     <!--  不要な定義  -->
     <remove-node path="/api/package[contains(@name, 'com.google.gson')]" /><!--  AAR only  -->
     <remove-node path="/api/package[@name='com.jinsjp.meme.library4cloud.dao']" />
     <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='BuildConfig']" /><!--  AAR only  -->
+    <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeLib']" />
     <!--  非公開APIや内部実装などの定義  -->
     <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeCalibType']" />
     <remove-node path="/api/package[@name='com.jins_jp.meme']/class[@name='MemeDataMode']" />
