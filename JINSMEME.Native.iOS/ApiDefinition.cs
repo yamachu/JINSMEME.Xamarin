@@ -109,14 +109,14 @@ namespace JINSMEME.Native.iOS
     // [Verify (ConstantsInterfaceAssociation)]
     partial interface Constants
     {
-        // extern double MEMEVersionNumber;
-        [Field("MEMEVersionNumber", "__Internal")]
-        double MEMEVersionNumber { get; }
+        //// extern double MEMEVersionNumber;
+        //[Field("MEMEVersionNumber", "__Internal")]
+        //double MEMEVersionNumber { get; }
 
-        // extern const unsigned char [] MEMEVersionString;
-        [Field("MEMEVersionString", "__Internal")]
-        // byte[] MEMEVersionString { get; }
-        IntPtr MEMEVersionString { get; }
+        //// extern const unsigned char [] MEMEVersionString;
+        //[Field("MEMEVersionString", "__Internal")]
+        //// byte[] MEMEVersionString { get; }
+        //IntPtr MEMEVersionString { get; }
     //}
 
     //[Static]
@@ -172,8 +172,8 @@ namespace JINSMEME.Native.iOS
         NSString MEMELibRealtimeDataUserInfoKey { get; }
 
         // extern NSString * MEMELibResponseUserInfoKey;
-        [Field("MEMELibResponseUserInfoKey", "__Internal")]
-        NSString MEMELibResponseUserInfoKey { get; }
+        //[Field("MEMELibResponseUserInfoKey", "__Internal")]
+        //NSString MEMELibResponseUserInfoKey { get; }
 
         // extern NSString * MEMELibResponseEventCodeUserInfoKey;
         [Field("MEMELibResponseEventCodeUserInfoKey", "__Internal")]
