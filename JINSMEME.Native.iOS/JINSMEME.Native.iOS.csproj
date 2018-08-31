@@ -40,9 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Native\MEMELib.linkwith.cs">
-      <DependentUpon>MEMELib.a</DependentUpon>
-    </Compile>
+    <Compile Include="MEMELib.framework.linkwith.cs" />
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
@@ -51,14 +49,10 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Native\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ObjcBindingNativeLibrary Include="Native\MEMELib.a" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Native\README.txt" />
     <BundleResource Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingNativeFramework Include="MEMELib.framework" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <Import Project="..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets')" />

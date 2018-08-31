@@ -41,6 +41,6 @@ Thumbs.db
 *.dotCover
 
 # Native Library
-MEMELib.a
 MemeLib.jar
 MemeLib.aar
+MEMELib.framework/
