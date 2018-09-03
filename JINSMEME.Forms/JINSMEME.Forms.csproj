@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="MSBuild.Sdk.Extras/1.6.47">
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid44;</TargetFrameworks>
+        <Configurations>Debug;Release</Configurations>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+        <DebugType>full</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+        <DebugType>pdbonly</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="*.shared.cs" />
+        <Compile Include="*.shared.*.cs" />
+    </ItemGroup>
+    <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+        <Compile Include="*.netstandard.cs" />
+        <Compile Include="*.netstandard.*.cs" />
+    </ItemGroup>
+    <ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
+        <Compile Include="*.android.cs" />
+        <Compile Include="*.android.*.cs" />
+        <PackageReference Include="JINSMEME.Native.Android" Version="1.1.5" />
+    </ItemGroup>
+    <ItemGroup Condition=" $(TargetFramework.StartsWith('Xamarin.iOS')) ">
+        <Compile Include="*.ios.cs" />
+        <Compile Include="*.ios.*.cs" />
+        <PackageReference Include="JINSMEME.Native.iOS" Version="1.1.3" />
+    </ItemGroup>
+</Project>
