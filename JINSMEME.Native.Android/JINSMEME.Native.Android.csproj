@@ -19,6 +19,10 @@
     <PackageVersion>1.1.5.0</PackageVersion>
     <Authors>yamachu</Authors>
     <Description>Unofficial JINS MEME SDK for Android</Description>
+    <PackageProjectUrl>https://github.com/yamachu/JINSMEME.Xamarin</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yamachu/JINSMEME.Xamarin</RepositoryUrl>
+    <PackageTags>JINSMEME</PackageTags>
+    <Summary>Unofficial JINS MEME SDK for Android</Summary>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
