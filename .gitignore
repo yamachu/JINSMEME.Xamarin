@@ -44,3 +44,6 @@ Thumbs.db
 MemeLib.jar
 MemeLib.aar
 MEMELib.framework/
+
+# release output
+/output/
