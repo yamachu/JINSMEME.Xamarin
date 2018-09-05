@@ -4,6 +4,14 @@
         <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid44;</TargetFrameworks>
         <Configurations>Debug;Release</Configurations>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <PackageId>JINSMEME.Forms</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Authors>yamachu</Authors>
+        <Description>Unofficial JINS MEME SDK for Xamarin.Forms</Description>
+        <PackageProjectUrl>https://github.com/yamachu/JINSMEME.Xamarin</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/yamachu/JINSMEME.Xamarin</RepositoryUrl>
+        <PackageTags>JINSMEME</PackageTags>
+        <Summary>Unofficial JINS MEME SDK for Xamarin.Forms</Summary>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
         <DebugType>full</DebugType>
@@ -11,6 +19,7 @@
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
         <DebugType>pdbonly</DebugType>
+        <DebugSymbols>true</DebugSymbols>
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="*.shared.cs" />
