@@ -9,31 +9,7 @@ namespace JINSMEME.Native.iOS
     [BaseType(typeof(NSObject))]
     interface MEMEData
     {
-        // byte* => ref byte
-
-        // -(instancetype)initWithDataPacket:(UInt8 *)data;
-        [Export("initWithDataPacket:")]
-        IntPtr Constructor(ref byte data);
-
-        // -(uint64_t)getUnixTime:(UInt8 *)data;
-        [Export("getUnixTime:")]
-        ulong GetUnixTime(ref byte data);
-
-        // -(UInt16)getUInt16:(UInt8 *)data;
-        [Export("getUInt16:")]
-        ushort GetUInt16(ref byte data);
-
-        // -(SInt16)getSInt16:(UInt8 *)data;
-        [Export("getSInt16:")]
-        short GetSInt16(ref byte data);
-
-        // -(float)getFloat16:(UInt8 *)data;
-        [Export("getFloat16:")]
-        float GetFloat16(ref byte data);
-
-        // -(float)getFloat24:(UInt8 *)data;
-        [Export("getFloat24:")]
-        float GetFloat24(ref byte data);
+        // 内部向けAPIだから削除
     }
 
     // @interface MEMERealTimeData : MEMEData
@@ -172,8 +148,8 @@ namespace JINSMEME.Native.iOS
         NSString MEMELibRealtimeDataUserInfoKey { get; }
 
         // extern NSString * MEMELibResponseUserInfoKey;
-        //[Field("MEMELibResponseUserInfoKey", "__Internal")]
-        //NSString MEMELibResponseUserInfoKey { get; }
+        [Field("MEMELibResponseUserInfoKey", "__Internal")]
+        NSString MEMELibResponseUserInfoKey { get; }
 
         // extern NSString * MEMELibResponseEventCodeUserInfoKey;
         [Field("MEMELibResponseEventCodeUserInfoKey", "__Internal")]
